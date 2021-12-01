@@ -82,12 +82,7 @@ public class MemberService {
 
     }
 
-    // 나무 정보 출력
-    public void print_Namu_service() {
-        mdao.printNamu(login_id);
-    }
-    
-
+   
     // 로그아웃
     public void logout(Scanner sc) {
         // 로그인 되어있을 경우
@@ -131,5 +126,10 @@ public class MemberService {
     public void plusExpNamu(int exp) {
     	mdao.Namu_plus(exp, login_id);
     }
+    // 나무 정보 출력
+    public void print_Namu_service() {
+        mdao.printNamu(login_id);
+    }
+    
 	
 }

@@ -61,5 +61,4 @@ class Tree extends growParent {
 	
 	
      }
-	// 자식이 가지고 있는 고유한 정보
-
+	
